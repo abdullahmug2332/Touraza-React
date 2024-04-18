@@ -4,9 +4,12 @@ import waterfall from './waterfall.jpeg'
 import aeroplane from './aeroplane.webp'
 import manupwater from './manupwater.jpeg'
 import { NavLink } from 'react-router-dom'
-
+import { useEffect } from 'react'
 
 export default function Booking() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <>
             <div className="homemain ">

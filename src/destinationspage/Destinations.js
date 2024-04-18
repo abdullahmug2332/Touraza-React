@@ -12,9 +12,13 @@ import Colosseum from './Colosseum.jpg'
 import pakistan from './pakistan.jpeg'
 import Dubai from './Dubai.webp'
 import { NavLink } from 'react-router-dom'
+import { useEffect } from 'react'
 
 
 export default function Destinations() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <>
             <div className="homemain ">

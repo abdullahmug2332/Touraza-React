@@ -8,6 +8,7 @@ import Destinations from './destinationspage/Destinations';
 import Booking from './bookingpage/Booking';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
+
 function App() {
   return (
     <>

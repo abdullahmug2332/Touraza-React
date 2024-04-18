@@ -6,8 +6,13 @@ import fransisco from "./fransisco.jpeg"
 import maldives from "./maldives.jpeg"
 import switzerland from "./switzerland.jpeg"
 import { NavLink } from 'react-router-dom'
+import { useEffect } from 'react'
 
 export default function Home() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <>
             <div className="homemain ">

@@ -7,9 +7,13 @@ import ceo from './ceo.jpg'
 import mapping from './maping.jpg'
 import main from './main.jpg'
 import { NavLink } from 'react-router-dom'
+import { useEffect } from 'react'
 
 
 export default function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <>
             <div className="homemain ">

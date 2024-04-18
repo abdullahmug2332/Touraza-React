@@ -87,10 +87,10 @@ footer{
   color: #fc2d2d;
 }
 .mainbtn{
-  background-color: #fc2d2d;
-  color: white;
-  font-size: 15px;
-  border: 0;
+  background-color: #fc2d2d !important;
+  color: white  !important;
+  font-size: 15px  !important;
+  border: 0  !important;
 }
 .mainbtn:hover{
   background-color: white;
