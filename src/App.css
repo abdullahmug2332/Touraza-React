@@ -301,6 +301,9 @@ footer{
   
 /* Medium devices (desktops) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .iconb {
+    font-size: 25px;
+  }
   .logoimg{
     width: 65px;
     height: 50px;
@@ -354,9 +357,24 @@ footer{
   .labels{
     font-size: 20px;
   }
+  .main{
+    height: 75vh;
+  }
+  .homemain{
+    margin-top: 100px;
+  }
+  .iconsm{
+    font-size: 15px;
+  }
 }
 /* Small devices (tablets) */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .iconb {
+    font-size: 25px;
+  }
+  .iconsm{
+    font-size: 15px;
+  }
   .logoimg{
     width: 65px;
     height: 50px;
@@ -393,10 +411,19 @@ footer{
   .labels{
     font-size: 20px;
   }
+  .main{
+    height: 70vh;
+  }
+  .homemain{
+    margin-top: 110px;
+  }
 }
     
 /* Extra small devices (phones) */
 @media only screen and (max-width: 575.98px) {
+  .iconb {
+    font-size: 25px;
+}
   .logoimg{
     width: 65px;
     height: 50px;
@@ -434,6 +461,7 @@ footer{
   .iconsm{
     max-width: 300px;
     text-align: center;
+    font-size: 15px;
   }
   .main{
     height: 75vh;
@@ -457,6 +485,12 @@ footer{
   }
   .labels{
     font-size: 20px;
+  }
+  .main{
+    height: 65vh;
+  }
+  .homemain{
+    margin-top: 120px;
   }
 }
   
