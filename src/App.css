@@ -1,38 +1,450 @@
-.App {
-  text-align: center;
+/* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar */
+body{
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoimg{
+  width: 90px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.touraza{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link{
+  color: #ab0202;
+}
+.nav-link:hover{
+  color: #fc2d2d;
+}
+.navbtn{
+  background-color: #fc2d2d;
   color: white;
+  font-size: 15px;
+}
+.navbtn:hover{
+  background-color: white;
+  color: #fc2d2d;
+  border: 1px solid #fc2d2d;
+}
+.navbtns{
+  margin-top: 13px;
 }
 
-.App-link {
-  color: #61dafb;
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
+footer{
+  padding-top: 30px;
+  background-color: #212529;
+  color: #aab1b7 ;
+}
+.footerlogo{
+  width: 100px;
+}
+.ftouraza{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  position: relative;
+  top: 13px;
+  left: 3px;
+}
+.faddress{
+  margin-top: 20px;
+  max-width: 290px;
+}
+.fimg{
+  width: 95px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.fimg:hover{
+  transform: scale(1.02);
+}
+/* home *//* home *//* home *//* home *//* home *//* home *//* home */
+.main{
+  height: 79vh;
+  border-radius: 10px;
+}
+.main:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.mtxt{
+  font-size: 38px;
+
+}
+.world{
+  color: #fc2d2d;
+}
+.mainbtn{
+  background-color: #fc2d2d;
+  color: white;
+  font-size: 15px;
+  border: 0;
+}
+.mainbtn:hover{
+  background-color: white;
+  color: #fc2d2d;
+  border: 1px solid #fc2d2d;
+}
+.iconb{
+  color: #fc2d2d;
+  font-size: 30px;
+  font-weight: bold;
+}
+.icon:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.rt{
+  text-align: center;
+  color: #fc2d2d;
+  font-weight: 700;
+}
+.rtimg{
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover !important;
+}
+.rtxt{
+  color: #fc2d2d;
+  font-size: 23px;
+}
+/* About *//* About *//* About *//* About *//* About *//* About *//* About *//* About */
+.ceoimg{
+  width: 70%;
+  border-radius: 50%;
+}
+.ceoname{
+  color: #fc2d2d;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.aij{
+  color: #fc2d2d;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.aboutdata{
+  font-size: 20px;
+}
+.os{
+  color: #fc2d2d;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.at{
+  color: #fc2d2d;
+  font-size: 30px;
+  font-weight: 700;
+}
+.atxt{
+  font-size: 17px;
+}
+.bigt{
+  color: #fc2d2d;
+  font-size: 38px;
+  margin-bottom: -5px;
+}
+.atimg{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  right: 20px;
+  border-top-left-radius:10px ;
+  border-bottom-left-radius:10px ;
+}
+.a4c{
+  border-top-right-radius:10px ;
+  border-bottom-right-radius:10px ;
+}
+.a4c:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.smallt{
+  font-size:13px ;
+}
+/* booking *//* booking *//* booking *//* booking *//* booking *//* booking *//* booking */
+.bimg{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: 20px;
+  border-top-right-radius:10px ;
+  border-bottom-right-radius:10px ;
+}
+.b4c{
+  border-top-left-radius:10px ;
+  border-bottom-left-radius:10px ;
+}
+.b4c:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.labels{
+  color: #fc2d2d;
+  font-size: 24px;
+  font-weight: 00;
+}
+.inputs{
+  padding: 8px;
+  border-radius: 7px;
+  border: 0;
+  background-color: #D8CBCB;
+}
+.bbtndiv{
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bbtn{
+  background-color: #fc2d2d;
+  padding: 10px 45px;
+  color: white;
+  border: 0;
+}
+.bbtn:hover{
+  background-color: white;
+  color: #fc2d2d;
+  border: 1px solid #fc2d2d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+    .nav-link{
+      margin-top: 40px;
+    }
+    .navlinks{
+      justify-content: center;
+      position: relative;
+      right: 40px;
+    }
+    .fimg{
+      width: 85px;
+    }
+    .mtxt{
+      font-size: 45px;
+      max-width: 100px;
+      position: relative;
+      bottom: 50px;
+      right: 30px;
+    }
+    .mainbtn{
+      padding: 10px;
+      position: relative;
+      bottom: 20px;
+      right: 25px;
+    }
+  
+}
+.card{
+  width: 100%;
+}
+.card:Hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.card-text{
+  color: #fc2d2d;
+  font-size: 23px;
+  font-weight: 700;
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-link{
+    margin-top: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .navlinks{
+    justify-content: end;
+    position: relative;
+    right: 40px;  
+  }
+  .fimg{
+    width: 80px;
+  }
+  .mtxt{
+    font-size: 45px;
+    max-width: 90px;
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+  }
+  .mainbtn{
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    right: 25px;
+  }
+  .aboutdata{
+    font-size: 15px;
+  }
+  .labels{
+    font-size: 20px;
   }
 }
+  
+/* Medium devices (desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .logoimg{
+    width: 65px;
+    height: 50px;
+  }
+  .touraza{
+    font-size: 30px;
+  }
+  .nav-link{
+    margin-top: 25px;
+
+  }
+  .navlinks{
+    justify-content: end;
+   
+  }  
+  .fimg{
+    width: 80px;
+  }
+  .footerlogo{
+    width: 70px;
+    height: 50px;
+  }
+  .ftouraza{
+    font-size: 35px;
+  }
+  .flg{
+    font-size: 20px;
+  }
+  .fsm{
+    font-size:16px ;
+  } 
+  .mtxt{
+    font-size: 40px;
+    max-width: 80px;
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+  } 
+  .mainbtn{
+    padding: 10px;
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+  }
+  .iconb{
+    font-size: 25px;
+  }
+  .aboutdata{
+    font-size: 15px;
+  }
+  .labels{
+    font-size: 20px;
+  }
+}
+/* Small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .logoimg{
+    width: 65px;
+    height: 50px;
+  }
+  .touraza{
+    font-size: 30px;
+  }
+  .nav-link{
+    margin-top: 25px;
+  } 
+  .navlinks{
+    justify-content: center;
+  }  
+  .footerlogo{
+    width: 70px;
+    height: 50px;
+  }
+  .ftouraza{
+    font-size: 35px;
+  } 
+  .flg{
+    font-size: 15px;
+  }
+  .fsm{
+    font-size:13px ;
+  } 
+  .mtxt{
+    font-size: 38px;
+    max-width: 80px;
+  }  
+  .os{
+    text-align: center;
+  }
+  .labels{
+    font-size: 20px;
+  }
+}
+    
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+  .logoimg{
+    width: 65px;
+    height: 50px;
+  }
+  .touraza{
+    font-size: 30px;
+  }
+  .navlinks{
+    justify-content: center;
+  }
+  .footerlogo{
+    width: 40px;
+    height: 30px;
+  }
+  .ftouraza{
+    font-size: 15px;
+  }
+  .flg{
+    font-size: 15px;
+  }
+  .fsm{
+    font-size:13px ;
+  } 
+  .fc{
+    position: relative;
+    top: 30px;
+  }   
+  .copyright{
+    font-size: 6px;
+  } 
+  .mtxt{
+    font-size: 32px;
+    max-width: 80px;
+  }
+  .iconsm{
+    max-width: 300px;
+    text-align: center;
+  }
+  .main{
+    height: 75vh;
+  }
+  .aboutdata{
+    font-size: 15px;
+    padding-left:10px ;
+    padding-right:10px ;
+  }
+  .ceoname{
+    font-size: 25px;
+  }
+  .aij{
+    padding-left:10px ;
+    padding-right:10px ;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .os{
+    text-align: center;
+  }
+  .labels{
+    font-size: 20px;
+  }
+}
+  
