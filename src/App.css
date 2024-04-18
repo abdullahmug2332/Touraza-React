@@ -73,8 +73,7 @@ footer{
   border-radius: 10px;
 }
 .homemain{
-  position: relative;
-  top: 90px;
+  margin-top: 90px;
 }
 .main:hover{
   transform: scale(1.02);
