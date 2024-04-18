@@ -9,6 +9,8 @@ nav{
   left: 0;
   width: 100%;
   z-index: 1000;
+  background-color: white;
+  margin-bottom: 20px;
 }
 .logoimg{
   width: 90px;
@@ -69,6 +71,10 @@ footer{
 .main{
   height: 79vh;
   border-radius: 10px;
+}
+.homemain{
+  position: relative;
+  top: 90px;
 }
 .main:hover{
   transform: scale(1.02);
